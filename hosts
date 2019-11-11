@@ -1,0 +1,12 @@
+[frontend] # Workstation server
+frontend ansible_host=frontend1.d62e.internal
+
+[application] #Defining application servers
+
+app1 ansible_host=app1.d62e.internal
+app2 ansible_host=app2.d62e.internal 
+
+[appdbsrv]
+
+db ansible_host=appdb1.d62e.internal
+
